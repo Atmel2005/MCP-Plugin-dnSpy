@@ -23,7 +23,7 @@ Das Plugin gewährt der KI vollen Zugriff auf die in dnSpy geladenen Assemblies:
 
 1. Kompilieren Sie das Projekt oder laden Sie die fertige `dnSpy.Extension.MCP.x.dll` herunter.
 2. Legen Sie die `.dll`-Datei in den `bin`-Ordner von dnSpy.
-3. Starten Sie dnSpy. Der Server startet automatisch auf Port `5555`.
+3. Starten Sie dnSpy. Der Server startet automatisch auf Port `31337`.
 
 ### 🔌 Verbindung zur KI (2 Optionen)
 
@@ -33,7 +33,7 @@ Wählen Sie je nach Ihrem KI-Assistenten eine der folgenden Verbindungsmethoden:
 Wenn Ihr Client direkte REST-API-Verbindungen unterstützt, fügen Sie den Server mit den folgenden Parametern hinzu:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
-- **Path:** `http://localhost:5555/mcp`
+- **Path:** `http://127.0.0.1:31337/mcp`
 
 #### Option 2: Python-Bridge-Verbindung (ZED, Claude Desktop, Cursor)
 Offizielle MCP-Clients benötigen `stdio`. Verwenden Sie das beiliegende Skript `dnspy_mcp_bridge.py`.
@@ -83,7 +83,7 @@ Fügen Sie die folgende Konfiguration zu Ihren KI-Einstellungen hinzu (z. B. `mc
 
 1. Зкомпілюйте проєкт або завантажте готову `dnSpy.Extension.MCP.x.dll`.
 2. Помістіть файл `.dll` виключно в папку `bin` вашого dnSpy.
-3. Запустіть dnSpy. Сервер автоматично запуститься на порту `5555`.
+3. Запустіть dnSpy. Сервер автоматично запуститься на порту `31337`.
 
 ### 🔌 Підключення до ШІ (2 варіанти)
 
@@ -93,7 +93,7 @@ Fügen Sie die folgende Konfiguration zu Ihren KI-Einstellungen hinzu (z. B. `mc
 Якщо ваш клієнт підтримує прямі REST API підключення, додайте сервер із наступними параметрами:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
-- **Path:** `http://localhost:5555/mcp`
+- **Path:** `http://127.0.0.1:31337/mcp`
 
 #### Варіант 2: Підключення через Python-міст (ZED, Claude Desktop, Cursor)
 Офіційні MCP-клієнти вимагають `stdio`. Використовуйте скрипт `dnspy_mcp_bridge.py`, що йде в комплекті.
@@ -143,7 +143,7 @@ The plugin grants the AI full access to loaded assemblies in dnSpy:
 
 1. Compile the project or download the pre-built `dnSpy.Extension.MCP.x.dll`.
 2. Place the `.dll` file specifically in the `bin` folder of your dnSpy installation.
-3. Launch dnSpy. The server will automatically start on port `5555`.
+3. Launch dnSpy. The server will automatically start on port `31337`.
 
 ### 🔌 Connecting to AI (2 Options)
 
@@ -153,7 +153,7 @@ Depending on your AI assistant, choose one of the connection methods:
 If your client supports direct REST API connections, add the server with the following parameters:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
-- **Path:** `http://localhost:5555/mcp`
+- **Path:** `http://127.0.0.1:31337/mcp`
 
 #### Option 2: Python Bridge Connection (ZED, Claude Desktop, Cursor)
 Official MCP clients require `stdio`. Use the included `dnspy_mcp_bridge.py` script.
@@ -203,7 +203,7 @@ Add the following configuration to your AI settings (e.g., `mcp_config.json` or 
 
 1. Скомпилируйте проект или скачайте готовый `dnSpy.Extension.MCP.x.dll`.
 2. Поместите `.dll` файл только в папку `bin` вашего dnSpy.
-3. Запустите dnSpy. Сервер автоматически стартует на порту `5555`.
+3. Запустите dnSpy. Сервер автоматически стартует на порту `31337`.
 
 ### 🔌 Подключение к ИИ (2 варианта)
 
@@ -213,7 +213,7 @@ Add the following configuration to your AI settings (e.g., `mcp_config.json` or 
 Если ваш клиент поддерживает прямое REST API подключение, добавьте сервер со следующими параметрами:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
-- **Path:** `http://localhost:5555/mcp`
+- **Path:** `http://127.0.0.1:31337/mcp`
 
 #### Вариант 2: Подключение через Python-мост (ZED, Claude Desktop, Cursor)
 Официальные MCP-клиенты требуют работы через `stdio`. Для этого используйте идущий в комплекте скрипт `dnspy_mcp_bridge.py`.
