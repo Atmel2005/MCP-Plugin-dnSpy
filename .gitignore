@@ -1,29 +1,12 @@
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-
-# Visual Studio files
+# Visual Studio
 .vs/
+bin/
+obj/
+*.cs
+*.csproj
 *.user
-*.userosscache
-*.sln.docstates
 *.suo
 
-# Visual Studio Code
-.vscode/
-
-# Python (for bridge script)
-__pycache__/
-*.pyc
-.venv/
+# Ignore all source code but NOT the compiled DLL or python script
+!dnSpy.Extension.MCP.x.dll
+!dnspy_mcp_bridge.py
