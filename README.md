@@ -22,7 +22,7 @@ Das Plugin gewährt der KI vollen Zugriff auf die in dnSpy geladenen Assemblies:
 ### 🛠️ Installation des Plugins in dnSpy
 
 1. Kompilieren Sie das Projekt oder laden Sie die fertige `dnSpy.Extension.MCP.x.dll` herunter.
-2. Legen Sie die `.dll`-Datei in den Erweiterungsordner von dnSpy (normalerweise der `bin`-Ordner oder neben `dnSpy.exe`).
+2. Legen Sie die `.dll`-Datei in den `bin`-Ordner von dnSpy.
 3. Starten Sie dnSpy. Der Server startet automatisch auf Port `5555`.
 
 ### 🔌 Verbindung zur KI (2 Optionen)
@@ -82,7 +82,7 @@ Fügen Sie die folgende Konfiguration zu Ihren KI-Einstellungen hinzu (z. B. `mc
 ### 🛠️ Встановлення плагіна в dnSpy
 
 1. Зкомпілюйте проєкт або завантажте готову `dnSpy.Extension.MCP.x.dll`.
-2. Помістіть файл `.dll` у папку розширень dnSpy (зазвичай це папка `bin` або поруч із `dnSpy.exe`).
+2. Помістіть файл `.dll` виключно в папку `bin` вашого dnSpy.
 3. Запустіть dnSpy. Сервер автоматично запуститься на порту `5555`.
 
 ### 🔌 Підключення до ШІ (2 варіанти)
@@ -142,7 +142,7 @@ The plugin grants the AI full access to loaded assemblies in dnSpy:
 ### 🛠️ Installing the Plugin in dnSpy
 
 1. Compile the project or download the pre-built `dnSpy.Extension.MCP.x.dll`.
-2. Place the `.dll` file in the dnSpy extensions folder (usually the `bin` folder or next to `dnSpy.exe`).
+2. Place the `.dll` file specifically in the `bin` folder of your dnSpy installation.
 3. Launch dnSpy. The server will automatically start on port `5555`.
 
 ### 🔌 Connecting to AI (2 Options)
@@ -202,7 +202,7 @@ Add the following configuration to your AI settings (e.g., `mcp_config.json` or 
 ### 🛠️ Установка плагина в dnSpy
 
 1. Скомпилируйте проект или скачайте готовый `dnSpy.Extension.MCP.x.dll`.
-2. Поместите `.dll` файл в папку расширений dnSpy (обычно это папка `bin` или рядом с `dnSpy.exe`).
+2. Поместите `.dll` файл только в папку `bin` вашего dnSpy.
 3. Запустите dnSpy. Сервер автоматически стартует на порту `5555`.
 
 ### 🔌 Подключение к ИИ (2 варианта)
