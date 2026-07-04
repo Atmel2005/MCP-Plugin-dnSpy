@@ -1,7 +1,5 @@
 # 🚀 dnSpy MCP Plugin (Model Context Protocol)
 
-![Screenshot](foto.png)
-
 <!-- markdownlint-disable MD024 -->
 
 ## Deutsch
