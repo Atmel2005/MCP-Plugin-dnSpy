@@ -29,8 +29,8 @@ Das Plugin gewährt der KI vollen Zugriff auf die in dnSpy geladenen Assemblies:
 
 Wählen Sie je nach Ihrem KI-Assistenten eine der folgenden Verbindungsmethoden:
 
-#### Option 1: Direkte HTTP-Verbindung (OFNEN MCU & benutzerdefinierte Clients)
-Wenn Ihr Client direkte REST-API-Verbindungen unterstützt (wie unsere OFNEN MCU-App), fügen Sie den Server mit den folgenden Parametern hinzu:
+#### Option 1: Direkte HTTP-Verbindung (benutzerdefinierte Clients)
+Wenn Ihr Client direkte REST-API-Verbindungen unterstützt, fügen Sie den Server mit den folgenden Parametern hinzu:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
 - **Path:** `http://localhost:5555/mcp`
@@ -89,8 +89,8 @@ Fügen Sie die folgende Konfiguration zu Ihren KI-Einstellungen hinzu (z. B. `mc
 
 Залежно від вашого ШІ-асистента, оберіть один із методів підключення:
 
-#### Варіант 1: Пряме HTTP-підключення (OFNEN MCU та кастомні клієнти)
-Якщо ваш клієнт підтримує прямі REST API підключення (наприклад, наш застосунок OFNEN MCU), додайте сервер із наступними параметрами:
+#### Варіант 1: Пряме HTTP-підключення (кастомні клієнти)
+Якщо ваш клієнт підтримує прямі REST API підключення, додайте сервер із наступними параметрами:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
 - **Path:** `http://localhost:5555/mcp`
@@ -149,8 +149,8 @@ The plugin grants the AI full access to loaded assemblies in dnSpy:
 
 Depending on your AI assistant, choose one of the connection methods:
 
-#### Option 1: Direct HTTP Connection (OFNEN MCU & custom clients)
-If your client supports direct REST API connections (like our OFNEN MCU app), add the server with the following parameters:
+#### Option 1: Direct HTTP Connection (Custom clients)
+If your client supports direct REST API connections, add the server with the following parameters:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
 - **Path:** `http://localhost:5555/mcp`
@@ -209,8 +209,8 @@ Add the following configuration to your AI settings (e.g., `mcp_config.json` or 
 
 В зависимости от вашего ИИ-ассистента, выберите один из вариантов подключения:
 
-#### Вариант 1: Прямое HTTP подключение (OFNEN MCU и кастомные клиенты)
-Если ваш клиент поддерживает прямое REST API подключение (например, наше приложение OFNEN MCU), добавьте сервер со следующими параметрами:
+#### Вариант 1: Прямое HTTP подключение (Кастомные клиенты)
+Если ваш клиент поддерживает прямое REST API подключение, добавьте сервер со следующими параметрами:
 - **Name:** `DNSPY_MCP`
 - **Type:** `http`
 - **Path:** `http://localhost:5555/mcp`
