@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>dnSpy.Extension.MCP.x</AssemblyName>
+    <RootNamespace>dnSpy.Extension.MCP</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\SOFT\DN_SPY\dnSpy-net-win64\bin\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="dnSpy.Contracts.Logic">
+      <HintPath>D:\SOFT\DN_SPY\dnSpy-net-win64\bin\dnSpy.Contracts.Logic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="dnSpy.Contracts.DnSpy">
+      <HintPath>D:\SOFT\DN_SPY\dnSpy-net-win64\bin\dnSpy.Contracts.DnSpy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>D:\SOFT\DN_SPY\dnSpy-net-win64\bin\dnlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
